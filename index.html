@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Brijoy · Geschenkideen für jeden Anlass</title>
+  <meta name="description" content="Brijoy ist eine App für alle, die gern schenken. Gerade in der Testphase mit Familie und Freunden.">
+  <meta property="og:title" content="Brijoy">
+  <meta property="og:description" content="Für Geburtstage, Weihnachten und alle Tage dazwischen.">
+  <meta property="og:image" content="https://brijoy.app/icon-512.png">
+  <meta property="og:url" content="https://brijoy.app/">
+  <meta name="theme-color" content="#0B7A84">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style>
+    :root {
+      --bg: #FAF7F2;
+      --surface: #FFFFFF;
+      --text: #1F1B17;
+      --muted: #5E5750;
+      --accent: #0B7A84;
+      --accent-soft: #D3ECEC;
+      --highlight: #A65D35;
+      --border: #E7E0D6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #151311;
+        --surface: #1F1C19;
+        --text: #F3EEE8;
+        --muted: #B5ADA4;
+        --accent: #5CC0C8;
+        --accent-soft: #1E3A3C;
+        --highlight: #E0956A;
+        --border: #36312C;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-text-size-adjust: 100%;
+    }
+    main {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 56px 20px 40px;
+    }
+    .hero { text-align: center; max-width: 620px; margin: 0 auto; }
+    .icon {
+      width: 120px; height: 120px;
+      border-radius: 28px;
+      box-shadow: 0 16px 40px rgba(10, 60, 64, 0.25);
+    }
+    .eyebrow {
+      margin: 28px 0 6px;
+      color: var(--highlight);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    h1, h2 {
+      font-family: ui-serif, "New York", Georgia, "Times New Roman", serif;
+      font-weight: 600;
+      line-height: 1.15;
+    }
+    h1 { font-size: clamp(44px, 12vw, 64px); margin: 0 0 8px; color: var(--accent); }
+    .tagline {
+      font-family: ui-serif, "New York", Georgia, "Times New Roman", serif;
+      font-size: clamp(20px, 5vw, 24px);
+      margin: 0 0 20px;
+    }
+    .intro { color: var(--muted); margin: 0 auto; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin: 48px 0 16px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px 22px;
+    }
+    .card h2 { font-size: 20px; margin: 0 0 6px; }
+    .card p { margin: 0; color: var(--muted); font-size: 16px; }
+    .privacy {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      border-radius: 16px;
+      border-top: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 22px;
+    }
+    .privacy h2 { font-size: 20px; margin: 0 0 6px; }
+    .privacy p { margin: 0; color: var(--muted); font-size: 16px; }
+    a { color: var(--accent); }
+    footer {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 20px 20px 48px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 15px;
+      text-align: center;
+    }
+    footer nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 24px; margin-bottom: 8px; }
+    footer a { text-decoration: none; font-weight: 600; }
+    footer a:hover, footer a:focus { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <img class="icon" src="/icon-512.png" alt="App-Symbol von Brijoy: ein weißes Herz als Geschenk mit kupferfarbener Schleife auf Petrol">
+    <p class="eyebrow">In der Testphase</p>
+    <h1>Brijoy</h1>
+    <p class="tagline">Für Geburtstage, Weihnachten und alle Tage dazwischen.</p>
+    <p class="intro">Brijoy ist eine App für alle, die gern schenken. Sie merkt sich die besonderen Tage deiner Liebsten, sammelt deine Geschenkideen und behält das Budget im Blick. Gerade testen Familie und Freunde die ersten Versionen.</p>
+  </section>
+
+  <section class="features" aria-label="Was Brijoy kann">
+    <div class="card">
+      <h2>Ideen sammeln</h2>
+      <p>Notiere Geschenkideen genau dann, wenn sie dir einfallen, auch per Link aus dem Onlineshop.</p>
+    </div>
+    <div class="card">
+      <h2>Anlässe im Blick</h2>
+      <p>Geburtstage, Weihnachten und eigene Anlässe, mit Erinnerung rechtzeitig vorher.</p>
+    </div>
+    <div class="card">
+      <h2>Budget im Griff</h2>
+      <p>Sieh auf einen Blick, wie viel du für wen eingeplant hast und was noch frei ist.</p>
+    </div>
+  </section>
+
+  <section class="privacy">
+    <h2>Deine Daten bleiben bei dir</h2>
+    <p>Brijoy speichert alles nur auf deinem Smartphone. Kein Konto, keine Werbung, kein Tracking.</p>
+  </section>
+</main>
+
+<footer>
+  <nav aria-label="Kontakt und Rechtliches">
+    <a href="https://www.instagram.com/brijoy.app/">Instagram @brijoy.app</a>
+    <a href="mailto:hello@brijoy.app">hello@brijoy.app</a>
+    <a href="/datenschutz.html">Datenschutz</a>
+  </nav>
+  <p>Ein privates Projekt in der Testphase.</p>
+</footer>
+</body>
+</html>
